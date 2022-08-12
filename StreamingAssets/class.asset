@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d949c33afb08b7c44a9d37b208a4003d, type: 3}
+  m_Name: class
+  m_EditorClassIdentifier: 
+  m_Classes:
+  - "\u540D\u79F0": "\u5E73\u6C11"
+    "\u4E8B\u4EF6\u8868": storyWord_man
+  - "\u540D\u79F0": "\u8D35\u65CF"
+    "\u4E8B\u4EF6\u8868": storyWord_sword
+  - "\u540D\u79F0": "\u738B\u65CF"
+    "\u4E8B\u4EF6\u8868": storyWord_royal
