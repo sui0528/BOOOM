@@ -38,7 +38,7 @@
     },
     "freeLayers": {
         "osm-maptiler": "//cdn.melown.com/vts/melown2015/features/global/osm-maptiler/freelayer.json",
-        "peaklist-org-ultras": "/mapproxy/melown2015/geodata/high-terrain/peaklist-org-ultras/freelayer.json"
+        "peaklist-org-ultras": "//rigel.mlwn.se/mapproxy/melown2015/geodata/high-terrain/peaklist-org-ultras/freelayer.json"
     },
     "glue": [],
     "namedViews": {},
