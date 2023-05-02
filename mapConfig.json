@@ -1,0 +1,329 @@
+{
+    "bodies": {
+        "Earth": {
+            "atmosphere": {
+                "colorHorizon": [
+                    158,
+                    206,
+                    255,
+                    255
+                ],
+                "colorZenith": [
+                    62,
+                    120,
+                    229,
+                    255
+                ],
+                "thickness": 100000,
+                "visibility": 100000
+            },
+            "class": "planet",
+            "comment": "Earth, Sol III, M-class planet.",
+            "defaultGeoidGrid": "egm96_15.gtx",
+            "parent": "Sun"
+        },
+        "Sun": {
+            "class": "star",
+            "comment": "Sol, G2V main-sequence star."
+        }
+    },
+    "boundLayers": {
+        "eox-it-sentinel2-cloudless": "//cdn.melown.com/vts/melown2015/imagery/global/eox-it-sentinel2-cloudless/boundlayer.json"
+    },
+    "credits": {
+        "jonathan": {
+            "id": 110,
+            "notice": "{copy}2005-16 Jonathan de Ferranti"
+        }
+    },
+    "freeLayers": {
+        "osm-maptiler": "//cdn.melown.com/vts/melown2015/features/global/osm-maptiler/freelayer.json",
+        "peaklist-org-ultras": "/mapproxy/melown2015/geodata/high-terrain/peaklist-org-ultras/freelayer.json"
+    },
+    "glue": [],
+    "namedViews": {},
+    "params": {},
+    "position": [
+        "obj",
+        -101.3,
+        47.116,
+        "float",
+        0,
+        0,
+        -90,
+        0,
+        9800000,
+        45
+    ],
+    "referenceFrame": {
+        "body": "Earth",
+        "description": "Earth, global geographic reference frame (Melown 2015)",
+        "division": {
+            "extents": {
+                "ll": [
+                    -7500000,
+                    -7500000,
+                    -7500000
+                ],
+                "ur": [
+                    7500000,
+                    7500000,
+                    7500000
+                ]
+            },
+            "heightRange": [
+                -12000,
+                9500
+            ],
+            "nodes": [
+                {
+                    "extents": {
+                        "ll": [
+                            -20037508.342789,
+                            -10018754.171394
+                        ],
+                        "ur": [
+                            20037508.342789,
+                            10018754.171394
+                        ]
+                    },
+                    "id": {
+                        "lod": 0,
+                        "position": [
+                            0,
+                            0
+                        ]
+                    },
+                    "partitioning": {
+                        "10": {
+                            "ll": [
+                                -20037508.3428,
+                                -10018754.1714
+                            ],
+                            "ur": [
+                                20037508.3428,
+                                -9467848.34716118
+                            ]
+                        },
+                        "00": {
+                            "ll": [
+                                -20037508.3428,
+                                -9467848.3472
+                            ],
+                            "ur": [
+                                20037508.3428,
+                                9467848.3472
+                            ]
+                        },
+                        "01": {
+                            "ll": [
+                                -20037508.3428,
+                                9467848.34716118
+                            ],
+                            "ur": [
+                                20037508.3428,
+                                10018754.1714
+                            ]
+                        }
+                    },
+                    "srs": "eqc-wgs84"
+                },
+                {
+                    "extents": {
+                        "ll": [
+                            -20037508.342789,
+                            -20037508.342789
+                        ],
+                        "ur": [
+                            20037508.342789,
+                            20037508.342789
+                        ]
+                    },
+                    "externalTexture": true,
+                    "id": {
+                        "lod": 1,
+                        "position": [
+                            0,
+                            0
+                        ]
+                    },
+                    "partitioning": "bisection",
+                    "srs": "pseudomerc"
+                },
+                {
+                    "extents": {
+                        "ll": [
+                            278600,
+                            278600
+                        ],
+                        "ur": [
+                            3721400,
+                            3721400
+                        ]
+                    },
+                    "externalTexture": true,
+                    "id": {
+                        "lod": 1,
+                        "position": [
+                            0,
+                            1
+                        ]
+                    },
+                    "partitioning": "bisection",
+                    "srs": "steren-wgs84"
+                },
+                {
+                    "extents": {
+                        "ll": [
+                            278600,
+                            278600
+                        ],
+                        "ur": [
+                            3721400,
+                            3721400
+                        ]
+                    },
+                    "externalTexture": true,
+                    "id": {
+                        "lod": 1,
+                        "position": [
+                            1,
+                            0
+                        ]
+                    },
+                    "partitioning": "bisection",
+                    "srs": "steres-wgs84"
+                }
+            ]
+        },
+        "extensions": {
+            "wmts": {
+                "content": "pseudomerc",
+                "projection": "urn:ogc:def:crs:EPSG::3857",
+                "wellKnownScaleSet": "urn:ogc:def:wkss:OGC:1.0:GoogleMapsCompatible"
+            }
+        },
+        "id": "melown2015",
+        "model": {
+            "navigationSrs": "geographic-wgs84",
+            "physicalSrs": "geocentric-wgs84",
+            "publicSrs": "geographic-wgs84-egm96"
+        },
+        "parameters": {
+            "metaBinaryOrder": 5
+        },
+        "version": 1
+    },
+    "rois": [],
+    "services": {
+        "atmdensity": {
+            "url": "atmdensity.png?def={param(0)}"
+        }
+    },
+    "srses": {
+        "eqc-wgs84": {
+            "comment": "Projected, wgs84 equidistant cylindrical (epsg:4087)",
+            "srsDef": "+proj=eqc +lat_ts=0 +lat_0=0 +lon_0=0 +x_0=0 +y_0=0 +ellps=WGS84 +datum=WGS84 +units=m +no_defs",
+            "type": "projected"
+        },
+        "geocentric-wgs84": {
+            "comment": "Geocentric, WGS84 (epsg:4978)",
+            "srsDef": "+proj=geocent +datum=WGS84 +units=m +no_defs",
+            "type": "cartesian"
+        },
+        "geographic-wgs84": {
+            "comment": "Geographic, WGS84 (epsg:4326)",
+            "srsDef": "+proj=longlat +datum=WGS84 +no_defs",
+            "type": "geographic"
+        },
+        "geographic-wgs84-egm96": {
+            "comment": "Geographic, WGS84 with EGM96 vertical (epsg:4326+5773)",
+            "geoidGrid": {
+                "definition": "geographic-wgs84-egm96-geoidgrid.jpg",
+                "extents": {
+                    "ll": [
+                        -180,
+                        -90
+                    ],
+                    "ur": [
+                        180,
+                        90
+                    ]
+                },
+                "srsDefEllps": "+proj=longlat +datum=WGS84 +no_defs",
+                "valueRange": [
+                    -107,
+                    85.4
+                ]
+            },
+            "srsDef": "+proj=longlat +datum=WGS84 +geoidgrids=egm96_15.gtx +vunits=m +no_defs",
+            "type": "geographic"
+        },
+        "pseudomerc": {
+            "comment": "Projected, Web/Pseudo Mecator (epsg:3857)",
+            "periodicity": {
+                "period": 40075016.685578,
+                "type": "X"
+            },
+            "srsDef": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs",
+            "type": "projected"
+        },
+        "steren-wgs84": {
+            "comment": "Projected, UPS north (epsg:32661)",
+            "srsDef": "+proj=stere +lat_0=90 +lat_ts=90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs",
+            "type": "projected"
+        },
+        "steres-wgs84": {
+            "comment": "Projected, UPS south (epsg:32761)",
+            "srsDef": "+proj=stere +lat_0=-90 +lat_ts=-90 +lon_0=0 +k=0.994 +x_0=2000000 +y_0=2000000 +datum=WGS84 +units=m +no_defs",
+            "type": "projected"
+        }
+    },
+    "surfaces": [
+        {
+            "2d": {
+                "creditsUrl": "//cdn.melown.com/vts/melown2015/terrain/global/viewfinder3/{lod}-{x}-{y}.credits?0",
+                "maskUrl": "//cdn.melown.com/vts/melown2015/terrain/global/viewfinder3/{lod}-{x}-{y}.mask?0",
+                "metaUrl": "//cdn.melown.com/vts/melown2015/terrain/global/viewfinder3/{lod}-{x}-{y}.2dmeta?0",
+                "orthoUrl": "//cdn.melown.com/vts/melown2015/terrain/global/viewfinder3/{lod}-{x}-{y}-{sub}.ortho?0"
+            },
+            "id": "terrain-viewfinder3",
+            "lodRange": [
+                1,
+                21
+            ],
+            "meshUrl": "//cdn.melown.com/vts/melown2015/terrain/global/viewfinder3/{lod}-{x}-{y}.bin?0",
+            "metaUrl": "//cdn.melown.com/vts/melown2015/terrain/global/viewfinder3/{lod}-{x}-{y}.meta?0",
+            "navUrl": "//cdn.melown.com/vts/melown2015/terrain/global/viewfinder3/{lod}-{x}-{y}.nav?0",
+            "textureUrl": "//cdn.melown.com/vts/melown2015/terrain/global/viewfinder3/{lod}-{x}-{y}-{sub}.jpg?0",
+            "tileRange": [
+                [
+                    0,
+                    0
+                ],
+                [
+                    1,
+                    1
+                ]
+            ]
+        }
+    ],
+    "textureAtlasReady": false,
+    "version": 1,
+    "view": {
+        "freeLayers": {
+            "osm-maptiler": {
+                "style": "//rigel.mlwn.se/store/stylesheet/osm-maptiler.style?16"
+            },
+            "peaklist-org-ultras": {
+                "style": "/store/stylesheet/peaklist-org-ultras.style?7"
+            }
+        },
+        "surfaces": {
+            "terrain-viewfinder3": [
+                "eox-it-sentinel2-cloudless"
+            ]
+        }
+    },
+    "virtualSurfaces": []
+}
