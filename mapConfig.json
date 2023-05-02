@@ -141,7 +141,7 @@
                     },
                     "externalTexture": true,
                     "id": {
-                        "lod": 21,
+                        "lod": 1,
                         "position": [
                             0,
                             0
@@ -163,7 +163,7 @@
                     },
                     "externalTexture": true,
                     "id": {
-                        "lod": 21,
+                        "lod": 1,
                         "position": [
                             0,
                             1
@@ -185,7 +185,7 @@
                     },
                     "externalTexture": true,
                     "id": {
-                        "lod": 21,
+                        "lod": 1,
                         "position": [
                             1,
                             0
