@@ -290,7 +290,7 @@
             "id": "terrain-viewfinder3",
             "lodRange": [
                 1,
-                27
+                21
             ],
             "meshUrl": "//cdn.melown.com/vts/melown2015/terrain/global/viewfinder3/{lod}-{x}-{y}.bin?0",
             "metaUrl": "//cdn.melown.com/vts/melown2015/terrain/global/viewfinder3/{lod}-{x}-{y}.meta?0",
@@ -316,7 +316,7 @@
                 "style": "//rigel.mlwn.se/store/stylesheet/osm-maptiler.style?16"
             },
             "peaklist-org-ultras": {
-                "style": "//rigel.mlwn.se/store/stylesheet/peaklist-org-ultras.style?7"
+                "style": "/store/stylesheet/peaklist-org-ultras.style?7"
             }
         },
         "surfaces": {
