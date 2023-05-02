@@ -316,7 +316,7 @@
                 "style": "//rigel.mlwn.se/store/stylesheet/osm-maptiler.style?16"
             },
             "peaklist-org-ultras": {
-                "style": "/store/stylesheet/peaklist-org-ultras.style?7"
+                "style": "//rigel.mlwn.se/store/stylesheet/peaklist-org-ultras.style?7"
             }
         },
         "surfaces": {
