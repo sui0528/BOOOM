@@ -289,7 +289,7 @@
             },
             "id": "terrain-viewfinder3",
             "lodRange": [
-                1,
+                20,
                 21
             ],
             "meshUrl": "//cdn.melown.com/vts/melown2015/terrain/global/viewfinder3/{lod}-{x}-{y}.bin?0",
