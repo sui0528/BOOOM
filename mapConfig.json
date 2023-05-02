@@ -217,7 +217,7 @@
     "rois": [],
     "services": {
         "atmdensity": {
-            "url": "atmdensity.png?def={param(0)}"
+            "url": "//rigel.mlwn.se/store/map-config/high-terrain/atmdensity.png?def={param(0)}"
         }
     },
     "srses": {
