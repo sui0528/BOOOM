@@ -21,5 +21,5 @@
     ],
 	"type": "raster",
 	//"url": "//mt0.google.com/vt?lyrs=p&x={locx}&s=&y={locy}&z={loclod}"
-	"url":"//services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/tile/{loclod}/{locy}/{locx}"
+	"url":"//maps.wikimedia.org/osm-intl/{loclod}/{locx}/{locy}.png"
 }
