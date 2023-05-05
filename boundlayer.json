@@ -7,7 +7,7 @@
     },
     "lodRange": [
         1,
-        15
+        21
     ],
     "maskUrl": "//cdn.melown.com/vts/melown2015/imagery/global/eox-it-sentinel2-cloudless/{lod}-{x}-{y}.mask?r=2",
     "tileRange": [
