@@ -1,15 +1,18 @@
 {
+    "availability": {
+        "mime": "image/png",
+        "type": "negative-type"
+    },
     "credits": {
-        "eox-it": {
-            "id": 125,
-            "notice": "Datasource: [https://s2maps.eu s2maps.eu] by EOX IT Services GmbH"
+        "microsoft": {
+            "id": 5,
+            "notice": "<a href=https://www.microsoft.com/en-us/maps/product/terms-april-2011 target=_blank>{copy}{Y} Microsoft Corporation</a>"
         }
     },
     "lodRange": [
-        1,
+        2,
         21
     ],
-    "maskUrl": "//cdn.melown.com/vts/melown2015/imagery/global/eox-it-sentinel2-cloudless/{lod}-{x}-{y}.mask?r=2",
     "tileRange": [
         [
             0,
@@ -21,5 +24,5 @@
         ]
     ],
     "type": "raster",
-    "url": "//cdn.melown.com/vts/melown2015/imagery/global/eox-it-sentinel2-cloudless/{lod}-{x}-{y}.jpg?r=2"
+    "url": "//ecn.{alt(t0,t1,t2,t3)}.tiles.virtualearth.net/tiles/a{quad(loclod,locx,locy)}.jpeg?g=13578"
 }
