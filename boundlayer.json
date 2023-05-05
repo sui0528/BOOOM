@@ -19,7 +19,6 @@
             1
         ]
     ],
-	"type": "vector",
-	//"url": "//mt0.google.com/vt?lyrs=p&x={locx}&s=&y={locy}&z={loclod}"
-	"url":"//maps.wikimedia.org/osm-intl/{loclod}/{locx}/{locy}.png"
+	"type": "raster",
+	"url": "//ecn.{alt(t0,t1,t2,t3)}.tiles.virtualearth.net/tiles/r{quad(loclod,locx,locy)}.jpeg?g=13578"
 }
