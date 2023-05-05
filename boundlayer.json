@@ -26,5 +26,5 @@
     "type": "raster",
 	//"url":"//tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2020/default/WGS84/{loclod}/{locy}/{locx}.jpg"
     //"url": "//ecn.{alt(t0,t1,t2,t3)}.tiles.virtualearth.net/tiles/a{quad(loclod,locx,locy)}.jpeg?g=13578"
-	"url": "//mt0.google.com/vt?lyrs=m&x={locx}&y={locy}&z={loclod}.png"
+	"url": "https://mt0.google.com/vt?lyrs=m&x={locx}&y={locy}&z={loclod}"
 }
