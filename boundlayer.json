@@ -20,5 +20,6 @@
         ]
     ],
 	"type": "raster",
-	"url": "//ecn.{alt(t0,t1,t2,t3)}.tiles.virtualearth.net/tiles/h{quad(loclod,locx,locy)}.jpeg?g=129&mkt=en&stl=H"
+	//"url": "//ecn.{alt(t0,t1,t2,t3)}.tiles.virtualearth.net/tiles/h{quad(loclod,locx,locy)}.jpeg?g=129&mkt=en&stl=H"
+	"url":"//a.tile.openstreetmap.org/{loclod}/{locx}/{locy}.png"
 }
