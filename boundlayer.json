@@ -1,0 +1,25 @@
+{
+    "credits": {
+        "eox-it": {
+            "id": 125,
+            "notice": "Datasource: [https://s2maps.eu s2maps.eu] by EOX IT Services GmbH"
+        }
+    },
+    "lodRange": [
+        1,
+        15
+    ],
+    "maskUrl": "{lod}-{x}-{y}.mask?r=2",
+    "tileRange": [
+        [
+            0,
+            0
+        ],
+        [
+            1,
+            1
+        ]
+    ],
+    "type": "raster",
+    "url": "{lod}-{x}-{y}.jpg?r=2"
+}

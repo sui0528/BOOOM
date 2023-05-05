@@ -28,7 +28,7 @@
         }
     },
     "boundLayers": {
-        "eox-it-sentinel2-cloudless": "//cdn.melown.com/vts/melown2015/imagery/global/eox-it-sentinel2-cloudless/boundlayer.json"
+        "eox-it-sentinel2-cloudless": "boundlayer.json"
     },
     "credits": {
         "jonathan": {
