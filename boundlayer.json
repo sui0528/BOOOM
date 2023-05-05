@@ -19,7 +19,7 @@
             1
         ]
     ],
-	"type": "raster",
+	"type": "vector",
 	//"url": "//mt0.google.com/vt?lyrs=p&x={locx}&s=&y={locy}&z={loclod}"
 	"url":"//maps.wikimedia.org/osm-intl/{loclod}/{locx}/{locy}.png"
 }
