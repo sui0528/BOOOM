@@ -1,4 +1,8 @@
 {
+	"availability": {
+        "mime": "image/png",
+        "type": "negative-type"
+    },
     "credits": {
         "microsoft": {
             "id": 5,
