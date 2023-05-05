@@ -19,5 +19,6 @@
             1
         ]
     ],
+	"type": "raster",
 	"url": "//mt0.google.com/vt?lyrs=m&x={locx}&s=&y={locy}&z={loclod}"
 }
