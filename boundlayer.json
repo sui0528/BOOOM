@@ -1,12 +1,12 @@
 {
-    "availability": {
-        "mime": "image/png",
-        "type": "negative-type"
-    },
+    //"availability": {
+    //    "mime": "image/png",
+    //    "type": "negative-type"
+    //},
     "credits": {
         "microsoft": {
             "id": 5,
-            "notice": "<a href=https://www.microsoft.com/en-us/maps/product/terms-april-2011 target=_blank>{copy}{Y} Microsoft Corporation</a>"
+            //"notice": "<a href=https://www.microsoft.com/en-us/maps/product/terms-april-2011 target=_blank>{copy}{Y} Microsoft Corporation</a>"
         }
     },
     "lodRange": [
@@ -23,8 +23,8 @@
             1
         ]
     ],
-    "type": "raster",
-	"url":"//tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2020/default/WGS84/{loclod}/{locy}/{locx}.jpg"
+    //"type": "raster",
+	//"url":"//tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2020/default/WGS84/{loclod}/{locy}/{locx}.jpg"
     //"url": "//ecn.{alt(t0,t1,t2,t3)}.tiles.virtualearth.net/tiles/a{quad(loclod,locx,locy)}.jpeg?g=13578"
-	//"url": "mt0.google.com/vt?lyrs=m&x={locx}&s=&y={locy}&z={loclod}"
+	"url": "//mt0.google.com/vt?lyrs=m&x={locx}&s=&y={locy}&z={loclod}"
 }
