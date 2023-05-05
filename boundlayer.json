@@ -6,7 +6,7 @@
     "credits": {
         "microsoft": {
             "id": 5,
-            //"notice": "<a href=https://www.microsoft.com/en-us/maps/product/terms-april-2011 target=_blank>{copy}{Y} Microsoft Corporation</a>"
+            "notice": "<a href=https://www.microsoft.com/en-us/maps/product/terms-april-2011 target=_blank>{copy}{Y} Microsoft Corporation</a>"
         }
     },
     "lodRange": [
