@@ -20,5 +20,5 @@
         ]
     ],
 	"type": "raster",
-	"url": "//mt0.google.com/vt?lyrs=m&x={locx}&s=&y={locy}&z={loclod}"
+	"url": "//mt0.google.com/vt?lyrs=p&x={locx}&s=&y={locy}&z={loclod}"
 }
